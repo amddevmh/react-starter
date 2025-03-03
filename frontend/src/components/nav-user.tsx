@@ -7,6 +7,8 @@ import {
   Sparkles,
 } from "lucide-react"
 
+import { ThemeModeDisplay } from "@/components/theme-mode-display"
+
 import {
   Avatar,
   AvatarFallback,
@@ -97,6 +99,9 @@ export function NavUser({
               <DropdownMenuItem>
                 <Bell />
                 Notifications
+              </DropdownMenuItem>
+              <DropdownMenuItem onSelect={(e) => e.preventDefault()}>
+                <ThemeModeDisplay />
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />

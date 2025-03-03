@@ -26,8 +26,8 @@ A clean React starter template with TypeScript, Tailwind CSS, and a responsive l
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/amddevmh/react-starter.git my-app
-cd my-app
+git clone https://github.com/amddevmh/react-starter.git
+cd frontend
 ```
 
 2. Install dependencies:
